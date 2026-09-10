@@ -13,8 +13,8 @@ is_International = input(' Is the shippping international? ---> ')
 print('=================================================================')
 print('Sender name: ',sender)
 print('Item: ',type)
-print('Weight: ',weight)
-print('Distance: ',distance)
+print('Weight: ',weight,'kg')
+print('Distance: ',distance,'km')
 
 if is_Fragile == 'True' :
 	print('The item is fragile')
